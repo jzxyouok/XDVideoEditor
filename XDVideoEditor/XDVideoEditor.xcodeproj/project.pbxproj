@@ -15,6 +15,9 @@
 		620AECC91BFA4D4C0005915E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620AECC71BFA4D4C0005915E /* LaunchScreen.storyboard */; };
 		620AECD41BFA4D4D0005915E /* XDVideoEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 620AECD31BFA4D4D0005915E /* XDVideoEditorTests.m */; };
 		620AECDF1BFA4D4D0005915E /* XDVideoEditorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 620AECDE1BFA4D4D0005915E /* XDVideoEditorUITests.m */; };
+		62DF3B8D1C0C0C7C000A5392 /* AVComposition+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B881C0C0C7C000A5392 /* AVComposition+Extension.m */; };
+		62DF3B8E1C0C0C7C000A5392 /* AVPlayerItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B8A1C0C0C7C000A5392 /* AVPlayerItem+Extension.m */; };
+		62DF3B8F1C0C0C7C000A5392 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B8C1C0C0C7C000A5392 /* NSString+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		620AECDA1BFA4D4D0005915E /* XDVideoEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDVideoEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		620AECDE1BFA4D4D0005915E /* XDVideoEditorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDVideoEditorUITests.m; sourceTree = "<group>"; };
 		620AECE01BFA4D4D0005915E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62DF3B871C0C0C7C000A5392 /* AVComposition+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVComposition+Extension.h"; sourceTree = "<group>"; };
+		62DF3B881C0C0C7C000A5392 /* AVComposition+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVComposition+Extension.m"; sourceTree = "<group>"; };
+		62DF3B891C0C0C7C000A5392 /* AVPlayerItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+Extension.h"; sourceTree = "<group>"; };
+		62DF3B8A1C0C0C7C000A5392 /* AVPlayerItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+Extension.m"; sourceTree = "<group>"; };
+		62DF3B8B1C0C0C7C000A5392 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		62DF3B8C1C0C0C7C000A5392 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		620AECB81BFA4D4C0005915E /* XDVideoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				62DF3B861C0C0C7C000A5392 /* Categories */,
 				620AECBC1BFA4D4C0005915E /* AppDelegate.h */,
 				620AECBD1BFA4D4C0005915E /* AppDelegate.m */,
 				620AECBF1BFA4D4C0005915E /* ViewController.h */,
@@ -138,6 +148,19 @@
 				620AECE01BFA4D4D0005915E /* Info.plist */,
 			);
 			path = XDVideoEditorUITests;
+			sourceTree = "<group>";
+		};
+		62DF3B861C0C0C7C000A5392 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				62DF3B871C0C0C7C000A5392 /* AVComposition+Extension.h */,
+				62DF3B881C0C0C7C000A5392 /* AVComposition+Extension.m */,
+				62DF3B891C0C0C7C000A5392 /* AVPlayerItem+Extension.h */,
+				62DF3B8A1C0C0C7C000A5392 /* AVPlayerItem+Extension.m */,
+				62DF3B8B1C0C0C7C000A5392 /* NSString+Extension.h */,
+				62DF3B8C1C0C0C7C000A5392 /* NSString+Extension.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				620AECC11BFA4D4C0005915E /* ViewController.m in Sources */,
+				62DF3B8F1C0C0C7C000A5392 /* NSString+Extension.m in Sources */,
 				620AECBE1BFA4D4C0005915E /* AppDelegate.m in Sources */,
 				620AECBB1BFA4D4C0005915E /* main.m in Sources */,
+				62DF3B8D1C0C0C7C000A5392 /* AVComposition+Extension.m in Sources */,
+				62DF3B8E1C0C0C7C000A5392 /* AVPlayerItem+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +524,7 @@
 				620AECE51BFA4D4D0005915E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		620AECE61BFA4D4D0005915E /* Build configuration list for PBXNativeTarget "XDVideoEditorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +533,7 @@
 				620AECE81BFA4D4D0005915E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		620AECE91BFA4D4D0005915E /* Build configuration list for PBXNativeTarget "XDVideoEditorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +542,7 @@
 				620AECEB1BFA4D4D0005915E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

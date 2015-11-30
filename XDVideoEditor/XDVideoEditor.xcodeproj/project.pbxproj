@@ -18,6 +18,7 @@
 		62DF3B8D1C0C0C7C000A5392 /* AVComposition+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B881C0C0C7C000A5392 /* AVComposition+Extension.m */; };
 		62DF3B8E1C0C0C7C000A5392 /* AVPlayerItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B8A1C0C0C7C000A5392 /* AVPlayerItem+Extension.m */; };
 		62DF3B8F1C0C0C7C000A5392 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B8C1C0C0C7C000A5392 /* NSString+Extension.m */; };
+		62DF3B951C0CB6B8000A5392 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B941C0CB6B8000A5392 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		62DF3B8A1C0C0C7C000A5392 /* AVPlayerItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+Extension.m"; sourceTree = "<group>"; };
 		62DF3B8B1C0C0C7C000A5392 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		62DF3B8C1C0C0C7C000A5392 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		62DF3B931C0CB6B8000A5392 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		62DF3B941C0CB6B8000A5392 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 				62DF3B8A1C0C0C7C000A5392 /* AVPlayerItem+Extension.m */,
 				62DF3B8B1C0C0C7C000A5392 /* NSString+Extension.h */,
 				62DF3B8C1C0C0C7C000A5392 /* NSString+Extension.m */,
+				62DF3B931C0CB6B8000A5392 /* UIView+Extension.h */,
+				62DF3B941C0CB6B8000A5392 /* UIView+Extension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 				620AECC11BFA4D4C0005915E /* ViewController.m in Sources */,
 				62DF3B8F1C0C0C7C000A5392 /* NSString+Extension.m in Sources */,
 				620AECBE1BFA4D4C0005915E /* AppDelegate.m in Sources */,
+				62DF3B951C0CB6B8000A5392 /* UIView+Extension.m in Sources */,
 				620AECBB1BFA4D4C0005915E /* main.m in Sources */,
 				62DF3B8D1C0C0C7C000A5392 /* AVComposition+Extension.m in Sources */,
 				62DF3B8E1C0C0C7C000A5392 /* AVPlayerItem+Extension.m in Sources */,

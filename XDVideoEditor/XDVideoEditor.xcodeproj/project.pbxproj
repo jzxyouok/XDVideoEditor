@@ -19,6 +19,7 @@
 		62DF3B8E1C0C0C7C000A5392 /* AVPlayerItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B8A1C0C0C7C000A5392 /* AVPlayerItem+Extension.m */; };
 		62DF3B8F1C0C0C7C000A5392 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B8C1C0C0C7C000A5392 /* NSString+Extension.m */; };
 		62DF3B951C0CB6B8000A5392 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DF3B941C0CB6B8000A5392 /* UIView+Extension.m */; };
+		6C3287DA4C6EEDDB9B6EC139 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE785DC21E3CECFA9F3E33B /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F90A4FC1C0E073D0088265F /* ColorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMatrix.h; sourceTree = "<group>"; };
+		2A5F96CDCC9336F9DA829E7E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5149AB235ED9BFD248B87112 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		620AECB61BFA4D4C0005915E /* XDVideoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDVideoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		620AECBA1BFA4D4C0005915E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		620AECBC1BFA4D4C0005915E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +67,7 @@
 		62DF3B8C1C0C0C7C000A5392 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		62DF3B931C0CB6B8000A5392 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		62DF3B941C0CB6B8000A5392 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		FEE785DC21E3CECFA9F3E33B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C3287DA4C6EEDDB9B6EC139 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16E3A4EB2B931B732D55EC42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A5F96CDCC9336F9DA829E7E /* Pods.debug.xcconfig */,
+				5149AB235ED9BFD248B87112 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		620AECAD1BFA4D4C0005915E = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +112,8 @@
 				620AECD21BFA4D4D0005915E /* XDVideoEditorTests */,
 				620AECDD1BFA4D4D0005915E /* XDVideoEditorUITests */,
 				620AECB71BFA4D4C0005915E /* Products */,
+				16E3A4EB2B931B732D55EC42 /* Pods */,
+				E3B4F8C988C7606EC3C85EBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +130,7 @@
 		620AECB81BFA4D4C0005915E /* XDVideoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				1F90A4FC1C0E073D0088265F /* ColorMatrix.h */,
 				62DF3B861C0C0C7C000A5392 /* Categories */,
 				620AECBC1BFA4D4C0005915E /* AppDelegate.h */,
 				620AECBD1BFA4D4C0005915E /* AppDelegate.m */,
@@ -168,6 +186,14 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		E3B4F8C988C7606EC3C85EBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEE785DC21E3CECFA9F3E33B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620AECE31BFA4D4D0005915E /* Build configuration list for PBXNativeTarget "XDVideoEditor" */;
 			buildPhases = (
+				962B39E570D1EE16A6336BBD /* Check Pods Manifest.lock */,
 				620AECB21BFA4D4C0005915E /* Sources */,
 				620AECB31BFA4D4C0005915E /* Frameworks */,
 				620AECB41BFA4D4C0005915E /* Resources */,
+				58F260A269E07273ADDC5CAC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,6 +321,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58F260A269E07273ADDC5CAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962B39E570D1EE16A6336BBD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		620AECB21BFA4D4C0005915E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -395,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -433,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +504,7 @@
 		};
 		620AECE41BFA4D4D0005915E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5F96CDCC9336F9DA829E7E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XDVideoEditor/Info.plist;
@@ -454,6 +516,7 @@
 		};
 		620AECE51BFA4D4D0005915E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5149AB235ED9BFD248B87112 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XDVideoEditor/Info.plist;

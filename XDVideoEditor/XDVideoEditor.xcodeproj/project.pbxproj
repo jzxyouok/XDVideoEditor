@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F8007E61C0F5E41008A929A /* NSBundle+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8007E51C0F5E41008A929A /* NSBundle+Extension.m */; };
 		620AECBB1BFA4D4C0005915E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620AECBA1BFA4D4C0005915E /* main.m */; };
 		620AECBE1BFA4D4C0005915E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 620AECBD1BFA4D4C0005915E /* AppDelegate.m */; };
 		620AECC11BFA4D4C0005915E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620AECC01BFA4D4C0005915E /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F8007E41C0F5E41008A929A /* NSBundle+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Extension.h"; sourceTree = "<group>"; };
+		1F8007E51C0F5E41008A929A /* NSBundle+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Extension.m"; sourceTree = "<group>"; };
 		1F90A4FC1C0E073D0088265F /* ColorMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMatrix.h; sourceTree = "<group>"; };
 		2A5F96CDCC9336F9DA829E7E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5149AB235ED9BFD248B87112 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 				62DF3B8C1C0C0C7C000A5392 /* NSString+Extension.m */,
 				62DF3B931C0CB6B8000A5392 /* UIView+Extension.h */,
 				62DF3B941C0CB6B8000A5392 /* UIView+Extension.m */,
+				1F8007E41C0F5E41008A929A /* NSBundle+Extension.h */,
+				1F8007E51C0F5E41008A929A /* NSBundle+Extension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -361,6 +366,7 @@
 			files = (
 				620AECC11BFA4D4C0005915E /* ViewController.m in Sources */,
 				62DF3B8F1C0C0C7C000A5392 /* NSString+Extension.m in Sources */,
+				1F8007E61C0F5E41008A929A /* NSBundle+Extension.m in Sources */,
 				620AECBE1BFA4D4C0005915E /* AppDelegate.m in Sources */,
 				62DF3B951C0CB6B8000A5392 /* UIView+Extension.m in Sources */,
 				620AECBB1BFA4D4C0005915E /* main.m in Sources */,
